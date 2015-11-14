@@ -27,5 +27,12 @@
     "expect.js": "0.3.1",
     "mocha": "2.0.1",
     "superagent": "0.20.0"
-  }
+  },
+  "files": [
+    "LICENSE",
+    "README.md",
+    "index.js",
+    "lib/",
+    "test/"
+  ]
 }
