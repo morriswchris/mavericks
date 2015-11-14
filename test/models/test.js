@@ -1,7 +1,4 @@
-var Schema = require("mongoose").Schema;
-module.exports = function(app){
-  return new Schema({
-    name     : String,
-    email      : String
-  });
-}
+module.exports = {
+  name: String,
+  email: String
+};
