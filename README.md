@@ -1,6 +1,6 @@
 # mavericks
 
-> A simple RESTful API generator to your (Mon)Goose.
+> A simple RESTful API to your (Mon)Goose.
 
 ## TODO
 * Better Readme
