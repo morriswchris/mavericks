@@ -9,12 +9,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.commorriswchris/mavericks"
+    "url": "https://github.com/morriswchris/mavericks"
   },
   "author": "Chris Morris",
   "license": "MIT",
   "bugs": {
-    "url": "ttps://github.commorriswchris/mavericks/issues"
+    "url": "https://github.com/morriswchris/mavericks/issues"
   },
   "dependencies": {
     "body-parser": "1.9.2",
@@ -28,6 +28,13 @@
     "mocha": "2.0.1",
     "superagent": "0.20.0"
   },
+  "keywords": [
+    "API",
+    "REST",
+    "ExpressJS",
+    "Mongoose",
+    "MongoDB"
+  ],
   "files": [
     "LICENSE",
     "README.md",
