@@ -125,3 +125,8 @@ By default Mavericks creates all the RESTful routes required by an API
 * id*: `comma separated list of ids to delete`
 * return_type: `String`
 * return: `success`/`error`
+
+
+[![Bitdeli
+Badge](https://d2weczhvl823v0.cloudfront.net/morriswchris/mavericks/trend.png)](https://bitdeli.com/free
+"Bitdeli Badge")
