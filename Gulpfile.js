@@ -8,7 +8,7 @@ var del = require("del");
 gulp.task("test", ["mocha"], function() {
   exec("mongo admin --eval 'db.shutdownServer();'", function(erro, stdout,
     stderr) {
-    del.sync(["data/"]);
+    del.sync(["./data/"]);
     process.exit();
   });
 });
@@ -23,8 +23,8 @@ gulp.task("mocha", ["server"], function() {
 
 gulp.task("server", function() {
   // make our mongo data dir
-  fs.mkdirSync("data/");
-  exec("mongod --dbpath data/", function(err, stdout, stderr) {
+  fs.mkdirSync("./data/");
+  exec("mongod --dbpath ./data/", function(err, stdout, stderr) {
     console.log(stdout);
     console.log(stderr);
     if (err !== null) {
