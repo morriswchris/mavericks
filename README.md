@@ -138,6 +138,8 @@ npm install
 npm test
 ```
 
+If you would just like to test locally, you can also start the test server by running `npm start` and the express server will start up at `0.0.0.0:3000` (*Note: this will require a running `mongodb` service on the default port*) 
+
 ## Contributions
 
 All contributions welcome. Please fork and submit a pull request ... suggestions are also welcome!
