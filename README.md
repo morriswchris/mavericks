@@ -1,6 +1,6 @@
 # Mavericks
 
-![npm shield](https://img.shields.io/npm/dt/mavericks.svg) ![npm shield](https://img.shields.io/npm/l/mavericks.svg) ![Build Status](https://travis-ci.org/morriswchris/mavericks.svg?branch=master)](https://travis-ci.org/morriswchris/mavericks)
+![npm shield](https://img.shields.io/npm/dt/mavericks.svg) ![npm shield](https://img.shields.io/npm/l/mavericks.svg) [![Build Status](https://travis-ci.org/morriswchris/mavericks.svg?branch=master)](https://travis-ci.org/morriswchris/mavericks)
 
 Mavericks is a simple RESTful API wrapper around the ExpressJS framework utilizing mongoose as the schema generator, and connection to your MongoDB instance
 
