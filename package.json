@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "node test/express.js",
-    "test": "./node_modules/mocha/bin/mocha test/index.js"
+    "test": "./node_modules/gulp/bin/gulp.js test"
   },
   "repository": {
     "type": "git",
@@ -24,8 +24,13 @@
     "morgan": "1.5.0"
   },
   "devDependencies": {
+    "del": "^2.1.0",
     "expect.js": "0.3.1",
+    "gulp": "^3.9.0",
+    "gulp-mocha": "^2.2.0",
+    "gulp-nodemon": "^2.0.4",
     "mocha": "2.0.1",
+    "run-sequence": "^1.1.4",
     "superagent": "0.20.0"
   },
   "keywords": [
