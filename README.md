@@ -1,6 +1,6 @@
 # Mavericks
 
-![npm shield](https://img.shields.io/npm/dt/mavericks.svg) ![npm shield](https://img.shields.io/npm/l/mavericks.svg)
+![npm shield](https://img.shields.io/npm/dt/mavericks.svg) ![npm shield](https://img.shields.io/npm/l/mavericks.svg) ![Build Status](https://travis-ci.org/morriswchris/mavericks.svg?branch=master)](https://travis-ci.org/morriswchris/mavericks)
 
 Mavericks is a simple RESTful API wrapper around the ExpressJS framework utilizing mongoose as the schema generator, and connection to your MongoDB instance
 
@@ -125,6 +125,22 @@ By default Mavericks creates all the RESTful routes required by an API
 * id*: `comma separated list of ids to delete`
 * return_type: `String`
 * return: `success`/`error`
+
+## Tests
+
+Mavericks' test suite utilizes gulp to start a `mongod` instance, and `expressjs` server instance importing test schemas into Mavericks, and the runs a series of `mocha` tests. The src can be found at `test/`.
+
+To run the tests
+
+```shell
+git clone git@github.com:morriswchris/mavericks
+npm install
+npm test
+```
+
+## Contributions
+
+All contributions welcome. Please fork and submit a pull request ... suggestions are also welcome!
 
 
 [![Bitdeli
