@@ -34,7 +34,8 @@ gulp.task("server", function() {
   return nodemon({
     script: "test/express.js",
     env: {
-      "NODE_ENV": "development"
+      "NODE_ENV": "development",
+      "ignore": "**/*"
     }
   });
 });

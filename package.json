@@ -20,7 +20,6 @@
     "body-parser": "1.9.2",
     "express": "4.10.1",
     "mongoose": "^4.2.5",
-    "mongoskin": "1.4.4",
     "morgan": "1.5.0"
   },
   "devDependencies": {
