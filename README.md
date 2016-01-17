@@ -111,11 +111,6 @@ By default Mavericks creates all the RESTful routes required by an API
 * return_type: `String`
 * return: `success`/`error`
 
-### `put :collection/:_id*`
-* id*: `comma separated list of ids to update`
-* return_type: `String`
-* return: `success`/`error`
-
 ### `delete :collection/:id`
 * id: `id of the object to delete`
 * return_type: `String`
