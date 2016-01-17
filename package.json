@@ -1,6 +1,6 @@
 {
   "name": "mavericks",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A simple RESTful API to your (Mon)Goose.",
   "main": "index.js",
   "scripts": {
